@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Himmer Stu">
+	<link rel="stylesheet" type="text/css" href="agenda.css" />
+	<title></title>
+	<script type="text/Javascript" src="agenda.js">
+	</script>
+</head>
+<body>
+	<div id="entry">
+	<h3>Student Agenda</h3>
+		Course Name: <input type="text" id="courseName"><br/>
+
+		<button type="button" onclick="createAgendaItem()">Add Course to Agenda</button>
+		<button type="button" onclick="loadLocalStorage()">Load Courses</button>
+		<button type="button" onclick="saveLocalStorage()">Save Courses</button>
+		<p>Create a course for which you can add assignments. 
+		"Save Courses" will save all the currently created courses into Local Storage. 
+		"Load Courses" loads everything since the last time you saved. </p>
+		
+	</div>
+	
+		<hr id = "close">
+		<h3>Click on the courses below to view and add assignments</h3>
+
+		<div id="courseList0" class = "courseList">
+			<!--This is where all the courses go that are made by the JavaScript-->
+		</div>
+		<div id="courseList1" class = "courseList">
+			<!--This is where all the courses go that are made by the JavaScript-->
+		</div>
+		<div id="courseList2" class = "courseList">
+			<!--This is where all the courses go that are made by the JavaScript-->
+		</div>
+		
+		
+</body>
+</html>

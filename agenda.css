@@ -1,0 +1,50 @@
+body {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+	
+div {
+	margin-bottom: 15px;
+	color: gray;
+	-webkit-transition: height 2s;
+	
+}
+
+.courseList {
+	width : 30%;
+	float: left;
+}
+
+div:hover {
+	cursor: default;
+}
+h3 {
+	color: #81B639;
+}
+div.small {
+	font-size: 10pt;
+	
+}
+div.small:hover {
+	color: #81B639;
+	font-style: italic;
+	cursor: pointer;
+}
+.courseItem {
+	width: 200px;
+	/*float: left;*/
+
+}
+
+.input{
+	 margin-right: 100px;
+}
+.delete{
+	color: #73170A;
+	font-size: 10pt;
+}
+span.delete:hover{
+	font-style: italic;
+	cursor: pointer;
+}
